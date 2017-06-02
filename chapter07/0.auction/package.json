@@ -1,0 +1,27 @@
+{
+  "name": "auction_ch7",
+  "description": "Sample Online Auction from Chapter 7",
+  "private": true,
+  "scripts": {
+    "start": "live-server"
+  },
+  "dependencies": {
+    "@angular/common": "^4.1.0",
+    "@angular/compiler": "^4.1.0",
+    "@angular/core": "^4.1.0",
+    "@angular/forms": "^4.1.0",
+    "@angular/platform-browser": "^4.1.0",
+    "@angular/platform-browser-dynamic": "^4.1.0",
+    "@angular/router": "^4.1.0",
+    "bootstrap": "^3.3.7",
+    "core-js": "^2.4.1",
+    "jquery": "^3.2.1",
+    "rxjs": "5.3.0",
+    "systemjs": "0.19.47",
+    "zone.js": "^0.8.5"
+  },
+  "devDependencies": {
+    "live-server": "1.2.0",
+    "typescript": "^2.3.3"
+  }
+}

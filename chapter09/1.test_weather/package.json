@@ -1,0 +1,33 @@
+{
+  "name": "test_weather",
+  "private": true,
+  "scripts": {
+    "start": "live-server",
+    "test": "karma start karma.conf.js"
+  },
+  "dependencies": {
+    "@angular/common": "^4.1.0",
+    "@angular/compiler": "^4.1.0",
+    "@angular/core": "^4.1.0",
+    "@angular/forms": "^4.1.0",
+    "@angular/http": "^4.1.0",
+    "@angular/platform-browser": "^4.1.0",
+    "@angular/platform-browser-dynamic": "^4.1.0",
+    "@angular/router": "^4.1.0",
+    "core-js": "^2.4.1",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.3.1",
+    "systemjs": "0.19.47",
+    "typescript": "^2.3.3",
+    "zone.js": "^0.8.10"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.5.47",
+    "jasmine-core": "^2.6.1",
+    "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.1.1",
+    "karma-firefox-launcher": "^1.0.1",
+    "karma-jasmine": "^1.1.0",
+    "live-server": "^1.2.0"
+  }
+}

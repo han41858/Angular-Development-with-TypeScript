@@ -1,0 +1,23 @@
+<auction-navbar></auction-navbar>
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-3">
+			<auction-search></auction-search>
+		</div>
+		<div class="col-md-9">
+			<div class="row carousel-holder">
+				<div class="col-md-12">
+					<auction-carousel></auction-carousel>
+				</div>
+			</div>
+			<div class="row">
+				<div *ngFor="let prod of products" class="col-sm-4 col-lg-4 col-md-4">
+					<auction-product-item [product]="prod"></auction-product-item>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<auction-footer></auction-footer>

@@ -1,0 +1,11 @@
+{
+	"name": "hello_world_devserver",
+	"description": "Hello world with webpack-dev-server",
+	"scripts": {
+		"start": "webpack-dev-server"
+	},
+	"dependencies": {
+		"webpack": "^2.5.1",
+		"webpack-dev-server": "^2.4.5"
+	}
+}

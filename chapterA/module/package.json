@@ -1,0 +1,11 @@
+{
+  "name": "module",
+  "scripts": {
+    "start": "http-server"
+  },
+  "dependencies": {
+    "es6-module-loader": "^0.17.11",
+    "http-server": "^0.10.0",
+    "traceur": "^0.0.111"
+  }
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<script>
+			function StockQuoteGenerator (symbol) {
+				this.symbol = symbol;
+
+				setInterval(function getQuote () {
+					console.log('The price quote for ' + this.symbol + ' is ' + Math.random());
+				}, 1000);
+			}
+
+			var stockQuoteGenerator = new StockQuoteGenerator('IBM');
+		</script>
+	</body>
+</html>

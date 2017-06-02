@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+	</head>
+	<body>
+		<span id="messageGoesHere"></span>
+
+		<script type="text/javascript">
+			const ws = new WebSocket('ws://localhost:8085');
+
+			ws.onmessage = (event) => {
+				const mySpan = document.getElementById('messageGoesHere');
+				mySpan.innerHTML = event.data;
+			};
+
+			ws.onerror = (event) => {
+				console.log('Error ', event)
+			};
+		</script>
+	</body>
+</html>

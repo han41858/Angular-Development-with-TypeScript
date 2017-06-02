@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<body>
+		<script>
+			"use strict";
+
+//			function getProductDetails () {
+//				setTimeout(function () {
+//					console.log('Getting customers');
+//					setTimeout(function () {
+//						console.log('Getting orders');
+//						setTimeout(function () {
+//							console.log('Getting products');
+//							setTimeout(function () {
+//								console.log('Getting product details')
+//							}, 1000);
+//						}, 1000);
+//					}, 1000);
+//				}, 1000);
+//			}
+//			getProductDetails();
+
+
+			function getCustomers () {
+				return new Promise(
+					function (resolve, reject) {
+						console.log('Getting customers');
+						// 서버 응답을 setTimeout() 함수로 대신한다.
+						setTimeout(function () {
+							let success = true;
+							if (success) {
+								resolve('John Smith'); // 고객 정보를 받아온 것으로 처리
+							} else {
+								reject("Can't get customers");
+							}
+						}, 1000);
+					}
+				);
+			}
+
+			function getOrders (customer) {
+				return new Promise(
+					function (resolve, reject) {
+						console.log(`Getting orders for ${customer}`);
+						// 서버 응답을 setTimeout() 함수로 대신한다.
+						setTimeout(function () {
+							let success = true;
+							if (success) {
+								resolve(`Found the order 123 for ${customer}`); // 주문 정보를 받아온 것으로 처리
+							} else {
+								reject("Can't get orders");
+							}
+						}, 1000);
+					}
+				);
+			}
+
+			getCustomers()
+				.then((cust) => {
+					console.log(cust);
+					return cust;
+				})
+				.then((cust) => getOrders(cust))
+				.then((order) => console.log(order))
+				.catch((err) => console.error(err));
+
+			console.log('Chained getCustomers and getOrders. Waiting for results');
+		</script>
+	</body>
+</html>

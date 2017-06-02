@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://unpkg.com/es6-promise@4.1.0"></script>
+		<script src="https://unpkg.com/systemjs@0.19.47/dist/system.src.js"></script>
+		<script>
+			// SystemJS 설정
+			System.config({
+				transpiler : 'traceur',
+				map : {
+					'traceur' : 'https://unpkg.com/traceur@0.0.111/bin/traceur.js'
+				}
+			});
+
+			// 모듈 로드
+			Promise.all([
+				System.import('./es6module.js'),
+				System.import('./es5module.js')
+			]).then(function (modules) {
+				var moduleNames = modules
+					.map(function (m) { return m.name; })
+					.join(', ');
+				console.log('The following modules are loaded: ' + moduleNames);
+			});
+		</script>
+	</head>
+	<body></body>
+</html>

@@ -1,0 +1,10 @@
+<div class="row carousel-holder">
+  <div class="col-md-12">
+    <app-carousel></app-carousel>
+  </div>
+</div>
+<div class="row">
+  <div *ngFor="let product of products | async" class="col-sm-4 col-lg-4 col-md-4">
+    <app-product-item [product]="product"></app-product-item>
+  </div>
+</div>

@@ -1,4 +1,6 @@
 # Angular Development with TypeScript
+![표지](https://github.com/han41858/Angular-Development-with-TypeScript/blob/master/cover.jpg | width=200)
+
 책에서 다루는 예제 코드 저장소입니다.
 
 ## 기준 버전

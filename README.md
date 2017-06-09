@@ -1,7 +1,15 @@
 # Angular Development with TypeScript
-<img src="https://github.com/han41858/Angular-Development-with-TypeScript/blob/master/cover.jpg" width="250">
+<img src="cover.jpg" width="250">
 
 책에서 다루는 예제 코드 저장소입니다.
+
+## 구입처
+- [인터넷 교보문고](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791186710159&orderClick=LEA&Kc=)
+- [알라딘](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=110998774)
+- [예스24](http://www.yes24.com/24/goods/42474040?scode=032&OzSrank=5)
+- [인터파크 도서](http://bsearch.interpark.com/dsearch/book.jsp?sch=all&sc.shopNo=&bookblockname=s_main&booklinkname=s_main&bid1=search_auto&bid2=product&bid3=004&bid4=001&query=Angular+Development+with+TypeScript++)
+- [반디앤루니스](http://www.bandinlunis.com/front/product/detailProduct.do?prodId=4076746)
+- [영풍문고](http://www.ypbooks.co.kr/book.yp?bookcd=100783703)
 
 ## 기준 버전
 - @angular : 4.1.0

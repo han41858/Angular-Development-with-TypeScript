@@ -7,7 +7,7 @@
 - [인터넷 교보문고](http://www.kyobobook.co.kr/product/detailViewKor.laf?ejkGb=KOR&mallGb=KOR&barcode=9791186710159&orderClick=LEA&Kc=)
 - [알라딘](http://www.aladin.co.kr/shop/wproduct.aspx?ItemId=110998774)
 - [예스24](http://www.yes24.com/24/goods/42474040?scode=032&OzSrank=5)
-- [인터파크 도서](http://bsearch.interpark.com/dsearch/book.jsp?sch=all&sc.shopNo=&bookblockname=s_main&booklinkname=s_main&bid1=search_auto&bid2=product&bid3=004&bid4=001&query=Angular+Development+with+TypeScript++)
+- [인터파크 도서](http://book.interpark.com/product/BookDisplay.do?_method=detail&sc.shopNo=0000400000&sc.prdNo=268004646&sc.saNo=003002001&bid1=search&bid2=product&bid3=title&bid4=001)
 - [반디앤루니스](http://www.bandinlunis.com/front/product/detailProduct.do?prodId=4076746)
 - [영풍문고](http://www.ypbooks.co.kr/book.yp?bookcd=100783703)
 

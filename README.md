@@ -280,4 +280,5 @@
 85 | 11 | `yarn add -D jquery` | `yarn add jquery`
 85 | 12 | 1: Bootstrap을 설치한다. ~~-D 옵션을 붙이면 패키지를 설치하면서 package.json의 devDependencies 항목에 해당 패키지를 추가한다.~~ | 1 : Bootstsrap을 설치한다.
 99 | 9 | count~~er~~ 프로퍼티는 | count 프로퍼티는
+129 | 12 | template : '...', | template : \`...\`,
 657 | 12 | forEach() 함수를 사용해서 배열의 항목~~은~~ | forEach() 함수를 사용해서 배열의 항목**을**

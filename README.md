@@ -17,6 +17,20 @@
 - TypeScript : 2.3.3
 - yarn : 0.24.5
 
+## 오류 수정
+페이지 | 줄 | 원문 | 수정
+--- | --- | --- | ---
+36 | 12 | TypeScript로 작성하는 Hello~~w~~ World | TypeScript로 작성하는 Hello World
+37 | 16 | `<<!DOCTYPE html>` | `<!DOCTYPE html>`
+85 | 10 | `yarn add -D bootstrap` | `yarn add bootstrap`
+85 | 11 | `yarn add -D jquery` | `yarn add jquery`
+85 | 12 | 1: Bootstrap을 설치한다. ~~-D 옵션을 붙이면 패키지를 설치하면서 package.json의 devDependencies 항목에 해당 패키지를 추가한다.~~ | 1 : Bootstsrap을 설치한다.
+99 | 9 | count~~er~~ 프로퍼티는 | count 프로퍼티는
+129 | 12 | template : '...', | template : \`...\`,
+187 | 4 | providers는 프로바이더를 등록하는 어노테이션 프로퍼티고, provide~~r~~는 개별 프로바이더에 사용하는 프로퍼티다. | providers는 프로바이더를 등록하는 어노테이션 프로퍼티고, provide는 개별 프로바이더에 사용하는 프로퍼티다.
+212 | 20 | providers 프로퍼티를 viewProviders~~를~~ | providers 프로퍼티를 viewProviders로
+657 | 12 | forEach() 함수를 사용해서 배열의 항목~~은~~ | forEach() 함수를 사용해서 배열의 항목**을**
+
 ## 목차
 - Chapter 01 Angular 소개
     - 1.1 JavaScript 프레임워크와 라이브러리
@@ -270,17 +284,3 @@
 	- B.9 클래스 메타데이터 추가하기, 어노테이션
 	- B.10 타입 정의 파일
 	- B.11 TypeScript & Angular 개발 단계 훑어보기
-	
-## 오류 수정
-페이지 | 줄 | 원문 | 수정
---- | --- | --- | ---
-36 | 12 | TypeScript로 작성하는 Hello~~w~~ World | TypeScript로 작성하는 Hello World
-37 | 16 | `<<!DOCTYPE html>` | `<!DOCTYPE html>`
-85 | 10 | `yarn add -D bootstrap` | `yarn add bootstrap`
-85 | 11 | `yarn add -D jquery` | `yarn add jquery`
-85 | 12 | 1: Bootstrap을 설치한다. ~~-D 옵션을 붙이면 패키지를 설치하면서 package.json의 devDependencies 항목에 해당 패키지를 추가한다.~~ | 1 : Bootstsrap을 설치한다.
-99 | 9 | count~~er~~ 프로퍼티는 | count 프로퍼티는
-129 | 12 | template : '...', | template : \`...\`,
-187 | 4 | providers는 프로바이더를 등록하는 어노테이션 프로퍼티고, provide~~r~~는 개별 프로바이더에 사용하는 프로퍼티다. | providers는 프로바이더를 등록하는 어노테이션 프로퍼티고, provide는 개별 프로바이더에 사용하는 프로퍼티다.
-212 | 20 | providers 프로퍼티를 viewProviders~~를~~ | providers 프로퍼티를 viewProviders로
-657 | 12 | forEach() 함수를 사용해서 배열의 항목~~은~~ | forEach() 함수를 사용해서 배열의 항목**을**

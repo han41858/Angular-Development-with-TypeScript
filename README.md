@@ -1,5 +1,5 @@
 # Angular Development with TypeScript
-<img src="cover.jpg" width="250">
+<img src="cover_3d.jpg" width="250">
 
 책에서 다루는 예제 코드 저장소입니다.
 

@@ -29,6 +29,7 @@
 129 | 12 | template : '...', | template : \`...\`,
 187 | 4 | providers는 프로바이더를 등록하는 어노테이션 프로퍼티고, provide~~r~~는 개별 프로바이더에 사용하는 프로퍼티다. | providers는 프로바이더를 등록하는 어노테이션 프로퍼티고, provide는 개별 프로바이더에 사용하는 프로퍼티다.
 212 | 20 | providers 프로퍼티를 viewProviders~~를~~ | providers 프로퍼티를 viewProviders로
+377 | 11 | }, ~~{},~~ equalValidator) | }, equalValidator)
 657 | 12 | forEach() 함수를 사용해서 배열의 항목~~은~~ | forEach() 함수를 사용해서 배열의 항목**을**
 
 ## 목차

@@ -30,6 +30,12 @@
 187 | 4 | providers는 프로바이더를 등록하는 어노테이션 프로퍼티고, provide~~r~~는 개별 프로바이더에 사용하는 프로퍼티다. | providers는 프로바이더를 등록하는 어노테이션 프로퍼티고, provide는 개별 프로바이더에 사용하는 프로퍼티다.
 212 | 20 | providers 프로퍼티를 viewProviders~~를~~ | providers 프로퍼티를 viewProviders로
 377 | 11 | }, ~~{},~~ equalValidator) | }, equalValidator)
+404 | 11 | 이 폴더에 hello_server. | 이 폴더에 hello-server.
+405 | 1 | 코드 8.1 hello_server.ts | 코드 8.1 hello-server.ts
+406 | 8 | 이 방식에서는 hello_server.ts 파일의 | 이 방식에서는 hello-server.ts 파일의
+406 | 21 | 이제 yarn tsc 명령을 실행하면 hello_server.js 파일이 | 이제 yarn tsc 명령을 실행하면 hello-server.js 파일이
+407 | 7 | `node build/hello_server.js` | `node build/hello-server.js`
+407 | 8 | V8 JavaScript 엔진을 시작하고 hello_server.js | V8 JavaScript 엔진을 시작하고 hello-server.js
 657 | 12 | forEach() 함수를 사용해서 배열의 항목~~은~~ | forEach() 함수를 사용해서 배열의 항목**을**
 
 ## 목차

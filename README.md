@@ -36,6 +36,8 @@
 406 | 21 | 이제 yarn tsc 명령을 실행하면 hello_server.js 파일이 | 이제 yarn tsc 명령을 실행하면 hello-server.js 파일이
 407 | 7 | `node build/hello_server.js` | `node build/hello-server.js`
 407 | 8 | V8 JavaScript 엔진을 시작하고 hello_server.js | V8 JavaScript 엔진을 시작하고 hello-server.js
+419 | 22 | ~~"@types/es6-shim": "^0.31.33",~~ | (삭제)
+440 | 1 | `res.sendFile(path.join(__dirname, '..', 'client/simple-websocket-client.html'));` | `res.sendFile(path.resolve(__dirname, '..', 'client/simple-websocket-client.html'));`
 657 | 12 | forEach() 함수를 사용해서 배열의 항목~~은~~ | forEach() 함수를 사용해서 배열의 항목**을**
 
 ## 목차

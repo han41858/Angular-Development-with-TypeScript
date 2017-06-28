@@ -38,6 +38,15 @@
 407 | 8 | V8 JavaScript 엔진을 시작하고 hello_server.js | V8 JavaScript 엔진을 시작하고 hello-server.js
 419 | 22 | ~~"@types/es6-shim": "^0.31.33",~~ | (삭제)
 440 | 1 | `res.sendFile(path.join(__dirname, '..', 'client/simple-websocket-client.html'));` | `res.sendFile(path.resolve(__dirname, '..', 'client/simple-websocket-client.html'));`
+489 | 9 | 다음 코드는 라우터 설정에 /product 주소가 | 다음 코드는 라우터 설정에 /products 주소가
+489 | 10 | 페이지가 /product/0으로 | 페이지가 /products/0으로
+489 | 17 | `expect(location.path()).toBe('/product/0');` | expect(location.path()).toBe('/products/0');
+500 | 23 | `TestBed.createComponent(AppComponent);` | `TestBed.createComponent(AppComponent);` ... ⑥
+500 | 25 | `tick();` ...⑥ | `tick();` ...⑦
+500 | 29 | `it('should be able to navigate to weather using commands API',` ...⑦ | `it('should be able to navigate to weather using commands API',` ...⑦
+501 | 6 | `it('should be able to navigate to weather by URL',` ...⑧ | `it('should be able to navigate to weather by URL',` ...⑨
+504 | 20 | hasResult() 함수와 | _hasResult() 함수와
+510 | 10 | 코드 9.9 weather.spec.ts | 코드 9.9 weather.component.spec.ts
 657 | 12 | forEach() 함수를 사용해서 배열의 항목~~은~~ | forEach() 함수를 사용해서 배열의 항목**을**
 
 ## 목차

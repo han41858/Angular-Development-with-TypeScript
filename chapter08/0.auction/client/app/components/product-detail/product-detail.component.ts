@@ -3,6 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { Product, Review, ProductService } from '../../services/product.service';
 import { BidService } from '../../services/bid.service';
 import StarsComponent from '../stars/stars.component';
+import { Subscription } from 'rxjs/Subscription';
 
 @Component({
 	selector : 'auction-product-page',

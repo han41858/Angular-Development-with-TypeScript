@@ -43,7 +43,7 @@
 489 | 17 | `expect(location.path()).toBe('/product/0');` | expect(location.path()).toBe('/products/0');
 500 | 23 | `TestBed.createComponent(AppComponent);` | `TestBed.createComponent(AppComponent);` ... ⑥
 500 | 25 | `tick();` ...⑥ | `tick();` ...⑦
-500 | 29 | `it('should be able to navigate to weather using commands API',` ...⑦ | `it('should be able to navigate to weather using commands API',` ...⑦
+500 | 29 | `it('should be able to navigate to weather using commands API',` ...⑦ | `it('should be able to navigate to weather using commands API',` ...⑧
 501 | 6 | `it('should be able to navigate to weather by URL',` ...⑧ | `it('should be able to navigate to weather by URL',` ...⑨
 504 | 20 | hasResult() 함수와 | _hasResult() 함수와
 510 | 10 | 코드 9.9 weather.spec.ts | 코드 9.9 weather.component.spec.ts

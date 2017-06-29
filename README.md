@@ -47,6 +47,8 @@
 501 | 6 | `it('should be able to navigate to weather by URL',` ...⑧ | `it('should be able to navigate to weather by URL',` ...⑨
 504 | 20 | hasResult() 함수와 | _hasResult() 함수와
 510 | 10 | 코드 9.9 weather.spec.ts | 코드 9.9 weather.component.spec.ts
+559 | 8줄 다음 | (추가) | `import '@angular/platform-browser`;
+570 | 9 | ~~const ContextReplacementPlugin = require('webpack/lib/ContextReplacementPlugin');~~ | (삭제)
 657 | 12 | forEach() 함수를 사용해서 배열의 항목~~은~~ | forEach() 함수를 사용해서 배열의 항목**을**
 
 ## 목차

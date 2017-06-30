@@ -29,6 +29,7 @@
 129 | 12 | template : '...', | template : \`...\`,
 187 | 4 | providers는 프로바이더를 등록하는 어노테이션 프로퍼티고, provide~~r~~는 개별 프로바이더에 사용하는 프로퍼티다. | providers는 프로바이더를 등록하는 어노테이션 프로퍼티고, provide는 개별 프로바이더에 사용하는 프로퍼티다.
 212 | 20 | providers 프로퍼티를 viewProviders~~를~~ | providers 프로퍼티를 viewProviders로
+275 | 17 | `styleUrl : 'app/components/home/home.component.css',` | `styleUrls : ['app/components/home/home.component.css'],`
 377 | 11 | }, ~~{},~~ equalValidator) | }, equalValidator)
 404 | 11 | 이 폴더에 hello_server. | 이 폴더에 hello-server.
 405 | 1 | 코드 8.1 hello_server.ts | 코드 8.1 hello-server.ts
@@ -47,8 +48,11 @@
 501 | 6 | `it('should be able to navigate to weather by URL',` ...⑧ | `it('should be able to navigate to weather by URL',` ...⑨
 504 | 20 | hasResult() 함수와 | _hasResult() 함수와
 510 | 10 | 코드 9.9 weather.spec.ts | 코드 9.9 weather.component.spec.ts
+518 | 9 | 파일 경로가 /app으로 시작하는 styleUrl | 파일 경로가 /app으로 시작하는 styleUrls
+551 | 2 | @Component 어노테이션의 templateUrl 항목과 styleUrl | @Component 어노테이션의 templateUrl 항목과 styleUrls
 559 | 8줄 다음 | (추가) | `import '@angular/platform-browser`;
 570 | 9 | ~~const ContextReplacementPlugin = require('webpack/lib/ContextReplacementPlugin');~~ | (삭제)
+596 | 9 | styleUrl은 styles로, | styleUrls는 styles로
 657 | 12 | forEach() 함수를 사용해서 배열의 항목~~은~~ | forEach() 함수를 사용해서 배열의 항목**을**
 
 ## 목차

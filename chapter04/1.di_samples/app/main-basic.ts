@@ -1,7 +1,6 @@
 import { Component, NgModule } from '@angular/core';
 import ProductComponent from './components/product.component';
 import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
-import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 @Component({

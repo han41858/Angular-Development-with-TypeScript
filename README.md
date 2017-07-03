@@ -28,6 +28,7 @@
 99 | 9 | count~~er~~ 프로퍼티는 | count 프로퍼티는
 129 | 12 | template : '...', | template : \`...\`,
 187 | 4 | providers는 프로바이더를 등록하는 어노테이션 프로퍼티고, provide~~r~~는 개별 프로바이더에 사용하는 프로퍼티다. | providers는 프로바이더를 등록하는 어노테이션 프로퍼티고, provide는 개별 프로바이더에 사용하는 프로퍼티다.
+191 | 12 | `import { Component, bind } from '@angular/core';`  | `import { Component } from '@angular/core';`
 197 | 13 | 코드 4.4 main.ts | 코드 4.4 main-change-provider.ts
 212 | 20 | providers 프로퍼티를 viewProviders~~를~~ | providers 프로퍼티를 viewProviders로
 275 | 17 | `styleUrl : 'app/components/home/home.component.css',` | `styleUrls : ['app/components/home/home.component.css'],`

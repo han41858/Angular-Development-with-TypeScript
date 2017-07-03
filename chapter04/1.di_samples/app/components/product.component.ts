@@ -1,4 +1,4 @@
-import { Component, bind } from '@angular/core';
+import { Component } from '@angular/core';
 import { ProductService, Product } from '../services/product.service';
 
 @Component({

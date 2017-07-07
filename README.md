@@ -57,7 +57,7 @@
 570 | 9 | ~~const ContextReplacementPlugin = require('webpack/lib/ContextReplacementPlugin');~~ | (삭제)
 596 | 9 | styleUrl은 styles로, | styleUrls는 styles로
 653 | 16 | `let { sym, price, stockExchange } = getStock();` | `let { symbol : sym, price, stockExchange } = getStock();`
-652 | 17 | `console.log(`The price of ${symbol} is ${price} ${stockExchange}`);` | `console.log(`The price of ${sym} is ${price} ${stockExchange}`);`
+653 | 17 | `console.log(`The price of ${symbol} is ${price} ${stockExchange}`);` | `console.log(`The price of ${sym} is ${price} ${stockExchange}`);`
 657 | 12 | forEach() 함수를 사용해서 배열의 항목~~은~~ | forEach() 함수를 사용해서 배열의 항목**을**
 
 ## 목차

@@ -20,6 +20,7 @@
 ## 오류 수정
 페이지 | 줄 | 원문 | 수정
 --- | --- | --- | ---
+6 | 17 | Node Package Manager(mpm) | Node Package Manager(npm)
 36 | 12 | TypeScript로 작성하는 Hello~~w~~ World | TypeScript로 작성하는 Hello World
 37 | 16 | `<<!DOCTYPE html>` | `<!DOCTYPE html>`
 85 | 10 | `yarn add -D bootstrap` | `yarn add bootstrap`

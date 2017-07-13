@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { Product, ProductService } from '../../services/product.service';
-import { FilterPipe } from '../pipes/filter.pipe'
 import 'rxjs/add/operator/debounceTime';
 
 @Component({

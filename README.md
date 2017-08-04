@@ -28,6 +28,7 @@
 85 | 11 | `yarn add -D jquery` | `yarn add jquery`
 85 | 12 | 1: Bootstrap을 설치한다. ~~-D 옵션을 붙이면 패키지를 설치하면서 package.json의 devDependencies 항목에 해당 패키지를 추가한다.~~ | 1 : Bootstsrap을 설치한다.
 99 | 9 | count~~er~~ 프로퍼티는 | count 프로퍼티는
+99 | 9 | stars 배열에 들어있는 항목이 false면 별을 색칠하지 않고, true면 별을 색칠한다. | stars 배열에 들어있는 항목이 false면 별을 색칠하고, true면 별을 색칠하지 않는다. (내용 반대)
 129 | 12 | template : '...', | template : \`...\`,
 187 | 4 | providers는 프로바이더를 등록하는 어노테이션 프로퍼티고, provide~~r~~는 개별 프로바이더에 사용하는 프로퍼티다. | providers는 프로바이더를 등록하는 어노테이션 프로퍼티고, provide는 개별 프로바이더에 사용하는 프로퍼티다.
 190 | 15 | `import { NgModule } from '@angular/core';` | (삭제)

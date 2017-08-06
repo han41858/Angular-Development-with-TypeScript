@@ -30,6 +30,7 @@
 99 | 9 | count~~er~~ 프로퍼티는 | count 프로퍼티는
 99 | 9 | stars 배열에 들어있는 항목이 false면 별을 색칠하지 않고, true면 별을 색칠한다. | stars 배열에 들어있는 항목이 false면 별을 색칠하고, true면 별을 색칠하지 않는다. (내용 반대)
 129 | 12 | template : '...', | template : \`...\`,
+185 | 16 | emitDecoratorMetaData | emitDecoratorMetadata
 187 | 4 | providers는 프로바이더를 등록하는 어노테이션 프로퍼티고, provide~~r~~는 개별 프로바이더에 사용하는 프로퍼티다. | providers는 프로바이더를 등록하는 어노테이션 프로퍼티고, provide는 개별 프로바이더에 사용하는 프로퍼티다.
 190 | 15 | `import { NgModule } from '@angular/core';` | (삭제)
 191 | 12 | `import { Component, bind } from '@angular/core';`  | `import { Component } from '@angular/core';`

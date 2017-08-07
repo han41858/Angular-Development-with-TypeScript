@@ -36,6 +36,7 @@
 191 | 12 | `import { Component, bind } from '@angular/core';`  | `import { Component } from '@angular/core';`
 197 | 13 | 코드 4.4 main.ts | 코드 4.4 main-change-provider.ts
 212 | 20 | providers 프로퍼티를 viewProviders~~를~~ | providers 프로퍼티를 viewProviders로
+266 | 15 | uppsercase와 같이 | uppercase와 같이
 275 | 13 | `import { FilterPipe } from '../pipes/filter.pipe' ···➊` | (삭제)
 275 | 17 | `styleUrl : 'app/components/home/home.component.css',` | `styleUrls : ['app/components/home/home.component.css'],`
 377 | 11 | }, ~~{},~~ equalValidator) | }, equalValidator)

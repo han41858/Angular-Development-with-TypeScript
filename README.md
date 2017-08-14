@@ -40,6 +40,7 @@
 275 | 13 | `import { FilterPipe } from '../pipes/filter.pipe' ···➊` | (삭제)
 275 | 17 | `styleUrl : 'app/components/home/home.component.css',` | `styleUrls : ['app/components/home/home.component.css'],`
 296 | 10 | 어느 날에는 집을 조립하고 하고, | 어느 날에는 집을 조립하고,
+316 | 13 | 코드 6.10 ng-onchanges-with-param.ts | 코드 6.10 on-changes-with-param.ts
 377 | 11 | }, ~~{},~~ equalValidator) | }, equalValidator)
 404 | 11 | 이 폴더에 hello_server. | 이 폴더에 hello-server.
 405 | 1 | 코드 8.1 hello_server.ts | 코드 8.1 hello-server.ts

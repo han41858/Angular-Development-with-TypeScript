@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script src="https://unpkg.com/core-js@2.4.1/client/shim.min.js"></script>
+		<script src="https://unpkg.com/zone.js@0.8.5"></script>
+		<script src="https://unpkg.com/systemjs@0.19.47/dist/system.src.js"></script>
+		<script src="https://unpkg.com/typescript@2.3.3"></script>
+
+		<script>
+			System.config({
+				transpiler : 'typescript',
+				map : {
+					'rxjs' : 'https://unpkg.com/rxjs@5.3.0',
+					'@angular/core' : 'https://unpkg.com/@angular/core@4.1.0',
+					'@angular/common' : 'https://unpkg.com/@angular/common@4.1.0',
+					'@angular/compiler' : 'https://unpkg.com/@angular/compiler@4.1.0',
+					'@angular/platform-browser' : 'https://unpkg.com/@angular/platform-browser@4.1.0',
+					'@angular/platform-browser-dynamic' : 'https://unpkg.com/@angular/platform-browser-dynamic@4.1.0'
+				}
+			});
+			System.import('main.ts');
+		</script>
+	</head>
+	<body>
+		<hello-world></hello-world>
+	</body>
+</html>

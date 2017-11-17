@@ -24,6 +24,7 @@
 36 | 12 | TypeScript로 작성하는 Hello~~w~~ World | TypeScript로 작성하는 Hello World
 37 | 16 | `<<!DOCTYPE html>` | `<!DOCTYPE html>`
 66 | 14 | System.import('./es6module.js'); // GET /es6Module.js | System.import('./es6module.js'); // GET /es6module.js
+67 | 24 | 설정해두기 이렇게 | 설정해두었기 때문에 이렇게
 85 | 10 | `yarn add -D bootstrap` | `yarn add bootstrap`
 85 | 11 | `yarn add -D jquery` | `yarn add jquery`
 85 | 12 | 1: Bootstrap을 설치한다. ~~-D 옵션을 붙이면 패키지를 설치하면서 package.json의 devDependencies 항목에 해당 패키지를 추가한다.~~ | 1 : Bootstsrap을 설치한다.

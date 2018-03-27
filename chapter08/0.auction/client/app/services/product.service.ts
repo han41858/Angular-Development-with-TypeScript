@@ -83,7 +83,7 @@ function encodeParams (params : any) : URLSearchParams {
 	if (params.price !== null) {
 		queryStr.append('price', params.price);
 	}
-	if (params.category !== -1) {
+	if (params.category !== '-1') {
 		queryStr.append('category', params.category);
 	}
 

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormControl, FormGroup, FormBuilder, Validators } from '@angular/forms';
+import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { ProductService } from '../../services/product.service';
 
 @Component({
@@ -17,7 +17,7 @@ export default class SearchComponent {
 		this.formModel = fb.group({
 			'title' : [null, Validators.minLength(3)],
 			'price' : [null, positiveNumberValidator],
-			'category' : [-1]
+			'category' : ['-1']
 		});
 	}
 
